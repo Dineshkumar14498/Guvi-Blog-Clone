@@ -1,0 +1,50 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.navbar {
+  height: 5rem;
+  background-color: rgb(244, 247, 245) !important;
+  font-size: xx-large;
+}
+
+.home {
+  min-height: 80vh;
+  background-color: rgb(41, 41, 80);
+  color: rgb(14, 207, 72);
+  font-size: xx-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  margin:0 1rem;
+}
+
+.nav-link:hover {
+  border : 1px solid green;
+  color: rgb(216, 208, 219);
+  border-radius: 10px;
+}
+
+.card {
+  text-decoration: none;
+}
+
+.activeLink {
+  background: rgb(59, 12, 41);
+  color: aliceblue;
+  border:none;
+  border-bottom : 5px solid rgb(21, 63, 65)
+}
+
+.pendingLink {
+  background: rgb(183, 241, 183);
+  border: white;
+}
+
+
+a {
+  text-decoration: none;;
+}
